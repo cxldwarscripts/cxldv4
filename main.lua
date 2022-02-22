@@ -33,12 +33,12 @@ local function checkassetversion()
 end
 
 if not (getasset and requestfunc and queueteleport) then
-	print("Vape not supported with your exploit.")
+	print("cxld not supported with your exploit.")
 	return
 end
 
 if shared.VapeExecuted then
-	error("Vape Already Injected")
+	error("cxld Already Injected")
 	return
 else
 	shared.VapeExecuted = true
